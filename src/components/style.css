@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+.navbar a {
+  color: white !important;
+}
+
+.main-nav {
+  background: #043873;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  z-index: 10;
+}
+
+.dropdown-nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 1.5rem;
+  height: 100%;
+}
+
+.menu.nav {
+  display: flex;
+  align-items: center;
+}
+
+.button-login-nav {
+  background-color: #ffe492;
+  color: #043873;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  margin-left: 3rem;
+  width: 126px;
+  height: 60px;
+}
+
+.button-try-nav {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  margin-left: 24px;
+  white-space: nowrap;
+  width: 227px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 1152px) {
+  .dropdown-nav {
+    display: none;
+  }
+}
