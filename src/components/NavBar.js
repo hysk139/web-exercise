@@ -1,13 +1,5 @@
 import React, { Component } from "react";
-import {
-  Image,
-  Navbar,
-  Nav,
-  // Container,
-  Button,
-  NavDropdown,
-  // Dropdown,
-} from "react-bootstrap";
+import { Image, Navbar, Nav, Button, NavDropdown } from "react-bootstrap";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import { BsArrowRight } from "react-icons/bs";
@@ -19,9 +11,9 @@ export default class NavBar extends Component {
   render() {
     return (
       <>
-        <Navbar className="main-nav" sticky="top" expand="md" variant="dark">
+        <Navbar className="main-nav" sticky="top" expand="sm" variant="dark">
           <Navbar.Brand href="#home">
-            <Image src={logo} alt="Exercise Logo" height="55vh" />
+            <Image src={logo} alt="Exercise Logo" className="logo-nav" />
           </Navbar.Brand>
 
           <NavbarToggle />
@@ -88,12 +80,12 @@ export default class NavBar extends Component {
                   Something
                 </NavDropdown.Item>
               </NavDropdown>
-              <Button className="button-login-nav">Login</Button>
-              <Button className="button-try-nav">
-                Try Whitespace free <BsArrowRight />
-              </Button>
             </Nav>
           </NavbarCollapse>
+          <Button className="button-login-nav">Login</Button>
+          <Button className="button-try-nav">
+            Try Whitespace free <BsArrowRight />
+          </Button>
         </Navbar>
       </>
     );
