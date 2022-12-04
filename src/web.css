@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color:rgb(12, 65, 134);
+    height: 270px;
+}  
+
+a { text-decoration: none; }
+
+.text { 
+    color: white;
+font-size: medium; }
+
+.title {
+    font-size: larger;
+}
+
+.try-taskey {
+    float: center;
+    width: 300px;
+    text-align: center;
+}
+
+.start-today button {
+    padding: 12px 24px;
+    color: white;
+    background-color: lightskyblue;
+    display: inline-block;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+}
+
+.links-section {
+    margin: 2%;
+    border: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.section {
+    width: 12%;
+    padding-left: 6%;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.miscellaneous {
+    margin: 2%;
+    margin-top: 20px;
+}
+
+.misc-section {
+    display: inline-block;
+}
+
+.other-links {
+    width: 70%;
+}
+
+.other-links a {
+    padding-left: 5%;
+}
+
+.other-links p {
+    padding-left: 5%;
+}
+
+.social-media {
+    width: 25%;
+    text-align: right;
+}
+
+
